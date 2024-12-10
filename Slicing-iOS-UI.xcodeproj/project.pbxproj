@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		BB6345172D0865C0004D8F21 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BB6344FE2D0865BE004D8F21 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BB6345052D0865BE004D8F21;
+			remoteInfo = "Slicing-iOS-UI";
+		};
+		BB6345212D0865C0004D8F21 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BB6344FE2D0865BE004D8F21 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BB6345052D0865BE004D8F21;
+			remoteInfo = "Slicing-iOS-UI";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BB6345062D0865BE004D8F21 /* Slicing-iOS-UI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Slicing-iOS-UI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB6345162D0865C0004D8F21 /* Slicing-iOS-UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Slicing-iOS-UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB6345202D0865C0004D8F21 /* Slicing-iOS-UIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Slicing-iOS-UIUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		BB6345082D0865BE004D8F21 /* Slicing-iOS-UI */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Slicing-iOS-UI";
+			sourceTree = "<group>";
+		};
+		BB6345192D0865C0004D8F21 /* Slicing-iOS-UITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Slicing-iOS-UITests";
+			sourceTree = "<group>";
+		};
+		BB6345232D0865C0004D8F21 /* Slicing-iOS-UIUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Slicing-iOS-UIUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BB6345032D0865BE004D8F21 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB6345132D0865C0004D8F21 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB63451D2D0865C0004D8F21 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BB6344FD2D0865BE004D8F21 = {
+			isa = PBXGroup;
+			children = (
+				BB6345082D0865BE004D8F21 /* Slicing-iOS-UI */,
+				BB6345192D0865C0004D8F21 /* Slicing-iOS-UITests */,
+				BB6345232D0865C0004D8F21 /* Slicing-iOS-UIUITests */,
+				BB6345072D0865BE004D8F21 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BB6345072D0865BE004D8F21 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BB6345062D0865BE004D8F21 /* Slicing-iOS-UI.app */,
+				BB6345162D0865C0004D8F21 /* Slicing-iOS-UITests.xctest */,
+				BB6345202D0865C0004D8F21 /* Slicing-iOS-UIUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BB6345052D0865BE004D8F21 /* Slicing-iOS-UI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB63452A2D0865C0004D8F21 /* Build configuration list for PBXNativeTarget "Slicing-iOS-UI" */;
+			buildPhases = (
+				BB6345022D0865BE004D8F21 /* Sources */,
+				BB6345032D0865BE004D8F21 /* Frameworks */,
+				BB6345042D0865BE004D8F21 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				BB6345082D0865BE004D8F21 /* Slicing-iOS-UI */,
+			);
+			name = "Slicing-iOS-UI";
+			packageProductDependencies = (
+			);
+			productName = "Slicing-iOS-UI";
+			productReference = BB6345062D0865BE004D8F21 /* Slicing-iOS-UI.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BB6345152D0865C0004D8F21 /* Slicing-iOS-UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB63452D2D0865C0004D8F21 /* Build configuration list for PBXNativeTarget "Slicing-iOS-UITests" */;
+			buildPhases = (
+				BB6345122D0865C0004D8F21 /* Sources */,
+				BB6345132D0865C0004D8F21 /* Frameworks */,
+				BB6345142D0865C0004D8F21 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BB6345182D0865C0004D8F21 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				BB6345192D0865C0004D8F21 /* Slicing-iOS-UITests */,
+			);
+			name = "Slicing-iOS-UITests";
+			packageProductDependencies = (
+			);
+			productName = "Slicing-iOS-UITests";
+			productReference = BB6345162D0865C0004D8F21 /* Slicing-iOS-UITests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BB63451F2D0865C0004D8F21 /* Slicing-iOS-UIUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB6345302D0865C0004D8F21 /* Build configuration list for PBXNativeTarget "Slicing-iOS-UIUITests" */;
+			buildPhases = (
+				BB63451C2D0865C0004D8F21 /* Sources */,
+				BB63451D2D0865C0004D8F21 /* Frameworks */,
+				BB63451E2D0865C0004D8F21 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BB6345222D0865C0004D8F21 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				BB6345232D0865C0004D8F21 /* Slicing-iOS-UIUITests */,
+			);
+			name = "Slicing-iOS-UIUITests";
+			packageProductDependencies = (
+			);
+			productName = "Slicing-iOS-UIUITests";
+			productReference = BB6345202D0865C0004D8F21 /* Slicing-iOS-UIUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BB6344FE2D0865BE004D8F21 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1610;
+				LastUpgradeCheck = 1610;
+				TargetAttributes = {
+					BB6345052D0865BE004D8F21 = {
+						CreatedOnToolsVersion = 16.1;
+					};
+					BB6345152D0865C0004D8F21 = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = BB6345052D0865BE004D8F21;
+					};
+					BB63451F2D0865C0004D8F21 = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = BB6345052D0865BE004D8F21;
+					};
+				};
+			};
+			buildConfigurationList = BB6345012D0865BE004D8F21 /* Build configuration list for PBXProject "Slicing-iOS-UI" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BB6344FD2D0865BE004D8F21;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = BB6345072D0865BE004D8F21 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BB6345052D0865BE004D8F21 /* Slicing-iOS-UI */,
+				BB6345152D0865C0004D8F21 /* Slicing-iOS-UITests */,
+				BB63451F2D0865C0004D8F21 /* Slicing-iOS-UIUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BB6345042D0865BE004D8F21 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB6345142D0865C0004D8F21 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB63451E2D0865C0004D8F21 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BB6345022D0865BE004D8F21 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB6345122D0865C0004D8F21 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB63451C2D0865C0004D8F21 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BB6345182D0865C0004D8F21 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BB6345052D0865BE004D8F21 /* Slicing-iOS-UI */;
+			targetProxy = BB6345172D0865C0004D8F21 /* PBXContainerItemProxy */;
+		};
+		BB6345222D0865C0004D8F21 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BB6345052D0865BE004D8F21 /* Slicing-iOS-UI */;
+			targetProxy = BB6345212D0865C0004D8F21 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		BB6345282D0865C0004D8F21 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BB6345292D0865C0004D8F21 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BB63452B2D0865C0004D8F21 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Slicing-iOS-UI/Preview Content\"";
+				DEVELOPMENT_TEAM = 2C3YA8X78B;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "app.akbarrzql.Slicing-iOS-UI";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BB63452C2D0865C0004D8F21 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Slicing-iOS-UI/Preview Content\"";
+				DEVELOPMENT_TEAM = 2C3YA8X78B;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "app.akbarrzql.Slicing-iOS-UI";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BB63452E2D0865C0004D8F21 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2C3YA8X78B;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "app.akbarrzql.Slicing-iOS-UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Slicing-iOS-UI.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Slicing-iOS-UI";
+			};
+			name = Debug;
+		};
+		BB63452F2D0865C0004D8F21 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2C3YA8X78B;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "app.akbarrzql.Slicing-iOS-UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Slicing-iOS-UI.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Slicing-iOS-UI";
+			};
+			name = Release;
+		};
+		BB6345312D0865C0004D8F21 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2C3YA8X78B;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "app.akbarrzql.Slicing-iOS-UIUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Slicing-iOS-UI";
+			};
+			name = Debug;
+		};
+		BB6345322D0865C0004D8F21 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2C3YA8X78B;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "app.akbarrzql.Slicing-iOS-UIUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Slicing-iOS-UI";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BB6345012D0865BE004D8F21 /* Build configuration list for PBXProject "Slicing-iOS-UI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB6345282D0865C0004D8F21 /* Debug */,
+				BB6345292D0865C0004D8F21 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BB63452A2D0865C0004D8F21 /* Build configuration list for PBXNativeTarget "Slicing-iOS-UI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB63452B2D0865C0004D8F21 /* Debug */,
+				BB63452C2D0865C0004D8F21 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BB63452D2D0865C0004D8F21 /* Build configuration list for PBXNativeTarget "Slicing-iOS-UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB63452E2D0865C0004D8F21 /* Debug */,
+				BB63452F2D0865C0004D8F21 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BB6345302D0865C0004D8F21 /* Build configuration list for PBXNativeTarget "Slicing-iOS-UIUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB6345312D0865C0004D8F21 /* Debug */,
+				BB6345322D0865C0004D8F21 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BB6344FE2D0865BE004D8F21 /* Project object */;
+}
